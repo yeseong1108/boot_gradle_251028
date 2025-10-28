@@ -22,7 +22,11 @@ public class DemoController {
 	@RequestMapping("/hello.do")
 //	public String hello() {
 	public String hello(Model model) {
+<<<<<<< HEAD
 		log.info("안녕하세요!111 222 333");
+=======
+		log.info("안녕하세요!111 222 444");
+>>>>>>> 4fcd11c6a0bd2b9b5d6dde8bd697756fe4b33870
 		
 		model.addAttribute("message", "hello.jsp 입니다!");
 		
